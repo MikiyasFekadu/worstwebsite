@@ -1,0 +1,144 @@
+* {
+    margin: 10px;
+    padding: 0;
+    transition: all 3s linear;
+    font-family: 'Cinzel Decorative', serif;
+    cursor: pointer;
+    text-decoration: underline;
+}
+header {
+    background: url(img/download.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 30vh;
+}
+.logo {
+    color: red;
+    font-size: 100px;
+}
+.logo:hover {
+    transition: .1s linear;
+    color: magenta;
+    padding: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid green;
+}
+ul {
+    background: black;
+}
+ul li {
+    color: yellow;
+}
+ul li a{
+    color: cyan;
+}
+ul li a:hover {
+    color: magenta;
+    transition: .1s linear;
+    padding: 20px;
+    font-size: 26px;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid green;
+}
+footer {
+    background: magenta;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons i {
+    color: black;
+    font-size: 50px;
+}
+.icons i:hover {
+    color: aqua;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    font-size: 10px;
+}
+.services {
+    width: 70%;
+}
+.services h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+}
+.service {
+    width: 100%;
+}
+.service img {
+    height: 150px;
+    width: 400px;
+}
+.service img:hover {
+    transform: scale(5);
+}
+.service p {
+    font-size: 27px;
+    font-family: 'Amatic SC', sans-serif;
+    background: rebeccapurple;
+    color: yellow;
+}
+.service li {
+    text-align: right;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 32px;
+}
+.service li:hover {
+    font-size: 15px;
+    transition: .1s all;
+    margin-left: 100px;
+    background: yellow;
+}
+.service button a {
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 27px;
+}
+.review {
+    background: yellowgreen;
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review h1 {
+    text-align: center;
+}
+.review p {
+    width: 300px;
+    background: black;
+    color: yellow;
+    border-radius: 50px;
+}
+.review p:hover {
+    color: magenta;
+    transition: .1s linear all;
+}
+.gallery-container {
+    width: 70%;
+}
+.gallery-container img {
+    width: 500px;
+    height: 200px;
+    border-radius: 50%;
+}
+.gallery-container img:hover {
+    transform: scale(3);
+}
+.about {
+    background: aqua;
+    color: black;
+    width: 30%;
+}
+.contact {
+    background: black;
+    color: aqua;
+}
